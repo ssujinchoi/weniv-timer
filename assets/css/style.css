@@ -1,0 +1,81 @@
+/* reset */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* 스타일 */
+*{
+    -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+}
+
+body {
+    background-image: radial-gradient(96.74% 276.79% at 3.59% 5.28%, #F0F4FF 0%, #A5B6EE 100%);
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    background-repeat: no-repeat;
+}
+
+#app {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.img-logo {
+    margin-top: 72px;
+}
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 360px;
+    margin: 0 auto; 
+    margin-top: 60px;
+    padding: 48px 44px 40px;
+    background: linear-gradient(144.07deg, #5572BB 2.13%, #374B7C 102.97%);
+    box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+    border-radius: 16px;
+}
+
+.timer .tit-timer {
+    border-bottom: 1px solid #3D538A;
+    padding-bottom: 23px;
+}
+
+.timer .cont-timer {
+    margin-top: 33px;
+}
+
+.timer .mod-timer {
+    margin-top: 40px;
+}
+
+.cont-timer {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.cont-timer span {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #A5B6EE;
+}
+
+.cont-timer .min::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #8198D0;
+}
